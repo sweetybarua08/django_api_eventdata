@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Live Info Banner</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="bg"><img src="{{ url_for('static', filename='images/bg.jpg') }}" alt=""></div>
+        <div class="scoreplacer">
+            <img src="{{ url_for('static', filename='images/box.png') }}" alt="">
+            <p class="status">Status: {{ data[1] }}</p>
+            <p class="team_name">Teams: {{ data[3] }}</p>
+        </div>
+        {% if isSix == 1 %}
+        <div class="six"><img src="{{ url_for('static', filename='images/six.png') }}" alt=""></div>
+        {% else %}
+        <div class="six hidden"><img src="{{ url_for('static', filename='images/six.png') }}" alt=""></div>
+        {% endif %}
+    </div>
+</body>
+</html>

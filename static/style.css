@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+.wrapper{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+}
+.bg{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+}
+.scoreplacer{
+    position: absolute;
+    width: 132px;
+    height: 36px;
+    top: 188px;
+    left: 85px;
+}
+.six{
+    position: absolute;
+    width: 212px;
+    height: 23px;
+    top: 114px;
+    left: 44px;
+}
+.status{
+    position: absolute;
+    width: 212px;
+    height: 23px;
+    top: 0px;
+    left: 0px;
+    scale: .8;
+}
+.team_name{
+    position: absolute;
+    width: 212px;
+    height: 23px;
+    top: 16px;
+    left: -24px;
+    scale: .7;
+}
