@@ -1,4 +1,4 @@
-# Live Cricket Data(event based)
+# This a api of showing event based data of worldcup 2023
 
 ### Project Description
 The project consists of two main components: proxy_api.py and myapp.py.
